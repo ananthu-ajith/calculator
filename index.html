@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main>
+        <div class="calc">
+            <form action="">
+                <input type="text" id="screen">
+                <input class="button number" type="button" value="7" onclick="clc(value)">
+                <input class="button number" type="button" value="8" onclick="clc(value)">
+                <input class="button number" type="button" value="9" onclick="clc(value)">
+                <input class="button operator" type="button" value="/" onclick="clc(value)">
+
+                <br>
+
+                <input class="button number" type="button" value="4" onclick="clc(value)">
+                <input class="button number" type="button" value="5" onclick="clc(value)">
+                <input class="button number" type="button" value="6" onclick="clc(value)">
+                <input class="button operator" type="button" value="*" onclick="clc(value)">
+
+                <br>
+
+                <input class="button number" type="button" value="1" onclick="clc(value)">
+                <input class="button number" type="button" value="2" onclick="clc(value)">
+                <input class="button number" type="button" value="3" onclick="clc(value)">
+                <input class="button operator" type="button" value="-" onclick="clc(value)">
+
+                <br>
+
+                <input class="button clear" type="button" value="C" onclick="clrs()">
+                <input class="button number" type="button" value="0" onclick="clc(value)">
+                <input class="button result" type="button" value="=" onclick="rslt()">
+                <input class="button operator" type="button" value="+" onclick="clc(value)">
+            </form>
+        </div>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
